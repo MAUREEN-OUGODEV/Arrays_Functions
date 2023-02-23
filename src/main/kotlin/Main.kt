@@ -13,7 +13,7 @@ fun cities(name:String, name2:String,name3:String,name4:String){
 //Question Two
 fun africaCities(){
    var cities = arrayOf("harare","mumbai","dodoma","jakarta")
-     var city = cities.map(cities.map{it .capitalize() })
+     var city = (cities.map{it .capitalize() })
      println(city)
 
 }
